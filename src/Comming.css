@@ -1,0 +1,10 @@
+.cart{
+    border-radius:20px ;
+    background-color: #f6f6f6;
+}
+@media (max-width:768px){
+    .cart{
+        background-color: white;
+    }
+  
+}

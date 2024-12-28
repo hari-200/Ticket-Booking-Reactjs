@@ -1,0 +1,239 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .movie-page {
+    width: 90%;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+  }
+  
+  .movie-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .movie-details h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .watch-trailer-btn {
+    background-color: #003a85;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+     width: 175px; 
+    cursor: pointer;
+  }
+  
+  .movie-poster img {
+    max-width: 100px;
+    border-radius: 10px;
+  }
+  
+  .tabs {
+    display: flex;
+    border-bottom: 2px solid #eee;
+    margin-bottom: 20px;
+    
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    /* color: rgba(159, 122, 122, 0.612); */
+    color:black;
+    cursor: pointer;
+    background-color: white;
+    
+  }
+  
+  .tab.active {
+    border-bottom: 2px solid #003a85;
+     background-color: blue; 
+  
+  }
+  
+  
+  .date-filters-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .date-picker {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .selected-date {
+    background-color: #d7ecff;
+    border-color: #003a85;
+  }
+  
+  .filters {
+    display: flex;
+    align-items:  flex-start;
+    gap: 15px;
+  }
+  
+  .filter-dropdown { 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+    
+   } 
+  
+  .premium-seats {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  
+  .theatre-listing {
+    margin-top: 20px;
+  }
+  
+  .theatre {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .showtime-btn {
+    background-color: #e8f5e9;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  
+.tab.active {
+    border-bottom: 2px solid #003a85;
+    color: #003a85;
+  }
+  
+  
+  .reviews-section {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .reviews-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .reviews-section ul {
+    padding-left: 20px;
+    list-style-type: disc;
+  }
+ 
+  .filter-dropdown {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    padding: 10px;
+    width: 120px; 
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .filter-dropdown:hover .dropdown-options {
+    display: block;
+  }
+  
+  .dropdown-btn {
+    font-size: 14px;
+    color: #333;
+    background: none;
+    border: none;
+    cursor: pointer;
+  
+  }
+  
+  .dropdown-options {
+    display: none;
+    position: absolute;
+    top: 110%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+    padding: 10px;
+  }
+  
+  .dropdown-options label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .dropdown-options input[type="checkbox"],
+  .dropdown-options input[type="radio"] {
+    cursor: pointer;
+  }
+  
+  .dropdown-options label:last-child {
+    margin-bottom: 0;
+  }
+  
+  
+  .premium-seats {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+  }
+  
+  .premium-seats input[type="checkbox"] {
+    cursor: pointer;
+  }
+
+
+
+  
+  
+  
+
+
+ 

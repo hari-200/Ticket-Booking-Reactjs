@@ -1,0 +1,34 @@
+.all-cities-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 5px;
+  }
+  
+  .city-name {
+    padding: 8px 12px;
+    cursor: pointer;
+    color: #333;
+    text-align: center;
+    transition: background-color 0.2s;
+  }
+  .no-hover-bg:hover, .no-hover-bg:focus, .no-hover-bg:active {
+    background-color: transparent !important; 
+    color: inherit !important; 
+    box-shadow: none; 
+    
+  }
+  
+  .no-hover-bg:hover .me-2, 
+  .no-hover-bg:hover .ms-2, 
+  .no-hover-bg:hover { 
+    color: black !important; 
+  }
+
+  
+  
+  
+  
+
+  
+  
+  

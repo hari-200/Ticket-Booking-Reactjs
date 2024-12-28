@@ -1,0 +1,15 @@
+.location-buttons .btn {
+  margin: 5px;
+}
+
+.search-results-page .list-group-item {
+  border: none;
+  padding: 8px 0;
+}
+.border-bottom {
+  border-bottom: 1px solid #ddd; 
+  padding-bottom: 10px;
+}
+.tree{
+  margin-top: 150px;
+}

@@ -1,0 +1,30 @@
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .card img {
+    height: 300px;
+    object-fit: cover;
+  }
+  .get{
+    background-color:#f6f6f6;
+  }
+  .top{
+    background-color: white;
+    border-radius: 20px;
+    line-height: 22px;
+    
+  }
+  .bottom{
+    background-color: white;
+    border-radius: 20px;
+    
+  }
+  .top .form-check {
+    margin-bottom: 45px;
+  }
+  
+  .top button {
+    margin-top: 30px; 
+  }
+ 
